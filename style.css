@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #1E1E1E;
+  color:#aaa;
+  
+}
+
+.main{
+  background-color: #1E1E1E;
+  padding: 24px;
+  border-bottom: 2px solid #aaaa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #aaa;
+}
+
+
+.logo {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: flex-start;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 100) "Dancing Script",
+    fantasy;
+  color: #680b51;
+  text-shadow:2px 2px 2px #2c0a10 ;
+
+}
+
+.main-nav {
+  margin: 1px;
+  padding-right: 30px;
+  list-style: none;
+  font: 1.2em 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  gap: 1.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sec-nav {
+  margin: 16px 0 0 0;
+  padding: 0;
+  list-style: none;
+  font: 1.2em sans-serif;
+  justify-content: center;
+  display: flex;
+  border-bottom: 2px solid #aaaa;
+}
+
+.sec-nav a {
+  padding: 0.5em 1em;
+  display: block;
+  transition: background 0.2s;
+}
+
+.sec-nav a:hover {
+  background-color: rgb(176, 173, 173)
+}
+
+.push {
+  margin-left: auto;
+}
+
+.articulo {
+  display: inline-block;
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  background: rgb(215, 216, 218);
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+}
+
+h4 {
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.articulo-img {
+  width: 337px;
+  height: 160px;
+  border-radius: 22px;
+}

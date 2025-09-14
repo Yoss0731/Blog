@@ -62,8 +62,8 @@ body {
   background-color: rgb(176, 173, 173)
 }
 
-.push {
-  margin-left: auto;
+.sec-articles {
+  padding: 20px;
 }
 
 .articulo {
@@ -87,4 +87,11 @@ h4 {
   width: 337px;
   height: 160px;
   border-radius: 22px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: black;
 }
